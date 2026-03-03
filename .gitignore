@@ -1,0 +1,8 @@
+*.fastq
+*.fq
+*.bam
+*.sam
+*.sra
+*.log
+*.tmp
+env/
