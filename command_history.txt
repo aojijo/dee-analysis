@@ -1,0 +1,303 @@
+    1  pwd
+    2  ssh -T git@github.com
+    3  git status
+    4  git remote -v
+    5  gh repo clone aojijo/Linux-Project-tryout
+    6  git@github.com:aojijo/Linux-Project-tryout.git
+    7  sudo apt install gh
+    8  gh repo clone aojijo/Linux-Project-tryout
+    9  git clone git@github.com:aojijo/Linux-Project-tryout.git
+   10  pwd
+   11  cd~
+   12  cd ~
+   13  pwd
+   14  cd Linux-Project-tryout
+   15  git status
+   16  pwd
+   17  mkdir -p data/raw
+   18  mkdir scripts
+   19  mkdir results
+   20  cd data/raw
+   21  pwd
+   22  curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR258/004/SRR2589044/SRR2589044_1.fastq.gz
+   23  curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR258/004/SRR2589044/SRR2589044_2.fastq.gz
+   24  curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR258/003/SRR2584863/SRR2584863_1.fastq.gz
+   25  curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR258/003/SRR2584863/SRR2584863_2.fastq.gz
+   26  curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR258/006/SRR2584866/SRR2584866_1.fastq.gz
+   27  curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR258/006/SRR2584866/SRR2584866_2.fastq.gz
+   28  ls
+   29  gunzip SRR2584863_1.fastq.gz
+   30  head -n 4 SRR2584863_1.fastq.gz
+   31  head -n 4 SRR2584863_1.fastq
+   32  tail -n 4 head -n 4 SRR2584863_1.fastq
+   33  fastqc -h
+   34  sudo apt install fastqc
+   35  fastqc -h
+   36  ls -l -h
+   37  fastqc *.fastq*
+   38  ls
+   39  ~
+   40  ~cd
+   41  ~ cd
+   42  pwd
+   43  cd results
+   44  cd
+   45  ~/results
+   46  ~/Linux-Project-tryout/results
+   47  cd ~/Linux-Project-tryout/results
+   48  mkdir fastqc_untrimmed
+   49  ls
+   50  ../data/raw
+   51  cd ../data/raw
+   52  mv * zip~/Linux-Project-tryout/results/fastqc_untrimmed
+   53  zip ~/Linux-Project-tryout/results/fastqc_untrimmed
+   54  mv *.zip ~/Linux-Project-tryout/results/fastqc_untrimmed
+   55  mv *.html ~/Linux-Project-tryout/results/fastqc_untrimmed
+   56  ls
+   57  cd ../results/fastqc_untrimmed
+   58  ../results/fastqc_untrimmed
+   59  cd ../results/fastqc_untrimmed
+   60  cd ../results
+   61  cd..results/fastqc_untrimmed
+   62  cd../results/fastqc_untrimmed
+   63  ls ../
+   64  cd ~/Linux-Project-tryout/results/fastqc_untrimmed
+   65  ls
+   66  for filename in *.zip >do >unzip $filename > done
+   67  ls
+   68  for filename in *.zip; do unzip $filename; done
+   69  sudo apt install unzip
+   70  $ for filename in *.zip
+   71  > do
+   72  > unzip $filename
+   73  > done
+   74  for filename in *.zip; > do
+   75  > unzip $filename
+   76  > done
+   77  for filename in *.zip; do unzip $filename; done
+   78  ls
+   79  ls -F SRR2584863_1_fastqc/
+   80  less SRR2584863_1_fastqc/summary.txt
+   81  cd ./results
+   82  cd ../results
+   83  cd ../results/
+   84  ls data
+   85  cd ~/Linux-Project tryout/results
+   86  cd ~
+   87  cd ~/Linux-Project-tryout/results/
+   88  mkdir fastqc_summaries
+   89  ls
+   90  cd fastqc_untrimmed
+   91  cat */summary.txt > ~/Linux-Project-tryout/results/fastqc_summaries
+   92  ls
+   93  cd -
+   94  cd fastqc_summaries
+   95  grep FAIL 
+   96  cd -
+   97  grep FAILfastqc_summaries
+   98  grep FAILfastqc_summaries.txt
+   99  grep FAIL fastqc_summaries.txt
+  100  cd fastqc_summaries
+  101  ls
+  102  cd ../fastqc_untrimmed
+  103  cd../fastqc_summaries
+  104  cd ../fastqc_summaries
+  105  ls
+  106  cd ../fastqc_untrimmed
+  107  cat */summary.txt > ../fastqc_summaries/all_summaries.txt
+  108  cd ../fastqc_summaries
+  109  ls
+  110  head all_summaries.txt
+  111  grep FAIL all_summaries.txt
+  112  trimmomatic
+  113  java -version
+  114  mkdir -p ~/Linux-Project-tryout/tools
+  115  cd ~/Linux-Project-tryout/tools
+  116  wget http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.39.zip
+  117  unzip Trimmomatic-0.39.zip
+  118  java -jar ~/Linux-Project-tryout/tools/Trimmomatic-0.39/trimmomatic-0.39.jar
+  119  trimmnomatic
+  120  cd../data/raw
+  121  cd -
+  122  cd ../.. dat
+  123  cd../../data
+  124  cd
+  125  trimmomatic
+  126  echo 'alias trimmomatic="java -jar ~/Linux-Project-tryout/tools/Trimmomatic-0.39/trimmomatic-0.39.jar"' >> ~/.bashrc
+  127  source ~/.bashrc
+  128  trimmomatic
+  129  ~/Linux-Project-tryout/data/raw
+  130  cd  ~/Linux-Project-tryout/data/raw
+  131  ls
+  132  SRR2584863_1.fastq
+  133  ls SRR2584863_1.fastq
+  134  cd ../data
+  135  mkdir -p ~/Linux-Project-tryout/results/trimmed
+  136  pwd
+  137  cd ../../results/trimmed
+  138  cd ~ Linux-Project-tryout
+  139  cd ~/Linux-Project-tryout
+  140  ls
+  141  java -jar ~/Linux-Project-tryout/tools/Trimmomatic-0.39/trimmomatic-0.39.jar PE -phred33   data/raw/SRR2584863_1.fastq   data/raw/SRR2584863_2.fastq.gz   results/trimmed/SRR2584863_1_paired.fastq.gz   results/trimmed/SRR2584863_1_unpaired.fastq.gz   results/trimmed/SRR2584863_2_paired.fastq.gz   results/trimmed/SRR2584863_2_unpaired.fastq.gz   ILLUMINACLIP:~/Linux-Project-tryout/tools/Trimmomatic-0.39/adapters/TruSeq3-PE.fa:2:30:10   LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+  142  trimmomatic PE data/raw/SRR2584863_1.fastq data/raw/SRR2584863_2.fastq.gz            results/trimmed/SRR2584863_1.trim.fastq.gz results/trimmed/SRR2584863_1un.trim.fastq.gz            results/trimmed/SRR2584863_2.trim.fastq.gz results/trimmed/SRR2584863_2un.trim.fastq.gz            SLIDINGWINDOW:4:20 MINLEN:25 ILLUMINACLIP:~/Linux-Project-tryout/tools/Trimmomatic-0.39/adapters/TruSeq3-PE.fa:2:30:10
+  143  echo 'alias trimmomatic="java -jar ~/Linux-Project-tryout/tools/Trimmomatic-0.39/trimmomatic-0.39.jar"' >> ~/.bashrc
+  144  source ~/.bashrc
+  145  trimmomatic PE -phred33   data/raw/SRR2584863_1.fastq   data/raw/SRR2584863_2.fastq.gz   results/trimmed/SRR2584863_1_paired.fastq.gz   results/trimmed/SRR2584863_1_unpaired.fastq.gz   results/trimmed/SRR2584863_2_paired.fastq.gz   results/trimmed/SRR2584863_2_unpaired.fastq.gz   ILLUMINACLIP:/home/aojijo/Linux-Project-tryout/tools/Trimmomatic-0.39/adapters/TruSeq3-PE.fa:2:30:10   LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+  146  cd ~/Linux-Project-tryout
+  147  nano .gitignore
+  148  cat .gitignore
+  149  git add .
+  150  git status
+  151  history
+  152  history > ~/Linux-Project-tryout/scripts/terminal_history.txt
+  153  ls 
+  154  cd /scripts
+  155  git status
+  156  git add scripts/ 
+  157  git status
+  158  git commit -m " Fist proper session"
+  159  git push origin main
+  160  ~/First-Linux-project
+  161  cd ~/First-Linux-project
+  162  pwd
+  163  ls
+  164  cd ~/First-Linux-tryout
+  165  cd ~/Linux-Project-tryout
+  166  ls
+  167  cd /scripts
+  168  cd ~Linux-Project-tryout/data
+  169  cd ~/Linux-Project-tryout/data
+  170  ls
+  171  cd ../results
+  172  ls
+  173  cd ~/Linux-Project-tryout/results/trimmed
+  174  ls
+  175  cd ~/Linux-Project-tryout
+  176  mkdir -p data/refgenome
+  177  ls
+  178  curl -L -o data/ref_genome/ecoli_rel606.fasta.gz ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/017/985/GCA_000017985.1_ASM1798v1/GCA_000017985.1_ASM1798v1_genomic.fna.gz
+  179  cd ~/Linux-Project-tryout/data
+  180  ls
+  181  cd ~Linux-Project-tryout/data/refgenome
+  182  cd~/Linux-Project-tryout/data/refgenome
+  183  ls
+  184  cd ~/Linux-Project-tryout/data/raw
+  185  cd ../refgenome
+  186  ls
+  187  curl -L -o data/ref_genome/ecoli_rel606.fasta.gz ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/017/985/GCA_000017985.1_ASM1798v1/GCA_000017985.1_ASM1798v1_genomic.fna.gz
+  188  curl -L -o data/ref_genome/ecoli_rel606.fasta.gz https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/017/985/GCA_000017985.1_ASM1798v1/GCA_000017985.1_ASM1798v1_genomic.fna.gz
+  189  cd../
+  190  cd../data
+  191  cd~/Linux-Project-tryout
+  192  cd ~/Linux-Project-tryout
+  193  curl -L -o data/refgenome/ecoli_rel606.fasta.gz https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/017/985/GCA_000017985.1_ASM1798v1/GCA_000017985.1_ASM1798v1_genomic.fna.gz
+  194  gunzip data/refgenome/ecoli_rel606.fasta.gz
+  195  head data/refgenome/ecoli_rel606.fasta
+  196  curl -L -o sub.tar.gz https://ndownloader.figshare.com/files/14418248
+  197  mv sub/~/Linux-Project-tryout/results/trimmed
+  198  cd ~/Linux-Project-tryout/results
+  199  ls
+  200  ../data
+  201  cd ../data
+  202  mv sub results/trimmed/
+  203  ~/Linux-Project-tryout
+  204  cd ~Linux-Project-tryout
+  205  cd ~/Linux-Project-tryout
+  206  mv sub results/trimmed/
+  207  mkdir -p results/sam results/bam results/bcf results/vcf
+  208  bwa index data/refgenome/ecoli_rel606.fasta
+  209  sudo apt install bwa
+  210  bwa index data/refgenome/ecoli_rel606.fasta
+  211  bwa mem data/refgenome/ecoli_rel606.fasta data/trimmed_fastq_small/SRR2584866_1.trim.sub.fastq data/trimmed_fastq_small/SRR2584866_2.trim.sub.fastq > results/sam/SRR2584866.aligned.sam
+  212  rm
+  213  bwa mem data/refgenome/ecoli_rel606.fasta results/trimmed/SRR2584866_1.trim.sub.fastq data/trimmed_fastq_small/SRR2584866_2.trim.sub.fastq > results/sam/SRR2584866.aligned.sam
+  214  cd ~/Linux-Project-tryout/results/trimmed
+  215  ls
+  216  cd ~/Linux-Project-tryout
+  217  mv results/trimmed/sub/*.fastq results/trimmed/
+  218  rmdir results/trimmed/sub
+  219  cd ~/Linux-Project-tryout/results/trimmed
+  220  ls
+  221  bwa mem data/refgenome/ecoli_rel606.fasta results/trimmed/SRR2584866_1.trim.sub.fastq results/trimmed/SRR2584866_2.trim.sub.fastq > results/sam/SRR2584866.aligned.sam
+  222  cd ../results
+  223  cd ../
+  224  ls
+  225  results/sam
+  226  sam
+  227  ls sam
+  228  bwa mem ../../data/refgenome/ecoli_rel606.fasta SRR2584866_1.trim.sub.fastq SRR2584866_2.trim.sub.fastq > ../sam/SRR2584866.aligned.sam
+  229  cd ~/Linux-Project-tryout
+  230  bwa mem data/refgenome/ecoli_rel606.fasta results/trimmed/SRR2584866_1.trim.sub.fastq data/trimmed_fastq_small/SRR2584866_2.trim.sub.fastq > results/sam/SRR2584866.aligned.sam
+  231  bwa mem data/refgenome/ecoli_rel606.fasta results/trimmed/SRR2584866_1.trim.sub.fastq results/trimmed/SRR2584866_2.trim.sub.fastq > results/sam/SRR2584866.aligned.sam
+  232  samtools view -S -b results/sam/SRR2584866.aligned.sam > results/bam/SRR2584866.aligned.bam
+  233  sudo apt install samtools
+  234  samtools view -S -b results/sam/SRR2584866.aligned.sam > results/bam/SRR2584866.aligned.bam
+  235  history > ~/Linux-Project-tryout/scripts/terminal_history.txt
+  236  git commit -m "Sam commit"
+  237  git oush origin main
+  238  git push origin main
+  239  git add scripts/terminal_history.txt
+  240  git commit -m "Updating history script"
+  241  git push origin main
+  242  ls
+  243  clear
+  244  pwd
+  245  ls
+  246  curl -O https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR018/18106/SRR18106160/SRR18106160.lite.1
+  247  /mnt/d
+  248  mkdir -p /mnt/e/-linux-data
+  249  mkdir -p /mnt/d/linux-data
+  250  pwd
+  251  ls
+  252  ls /mnt
+  253  mv /home/aojijo/my-project /mnt/d/linux-data/
+  254  mv /home/aojijo/Linux-Project-tryout /mnt/d/linux-data/
+  255  mv /home/aojijo/Linux-Project-tryout-backup /mnt/d/linux-data/
+  256  ls
+  257  sudo apt update
+  258  sudo apt install sra-toolkit
+  259  fasterq-dump --split-files SRR18106158
+  260  ls
+  261  pwd
+  262  fasterq-dump --version
+  263  mkdir trial_analysis
+  264  ls
+  265  ~trial_analysis
+  266  cd ~/trial_analysis
+  267  mkdir sra data
+  268  ls
+  269  rmdir sra data
+  270  ls
+  271  mkdir sra_data
+  272  ls
+  273  cd ~/ sra_data
+  274  cd sra_data
+  275  wget https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18106158/SRR18106158 -O SRR18106158.sra
+  276  ls
+  277  fasterq-dump --split-files SRR18106158.sra
+  278  ls -lh
+  279  ls
+  280  wget https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18106159/SRR18106159 -O SRR18106159.sra
+  281  fasterq-dump --split-files  SRR18106159
+  282  pwd
+  283  fasterq-dump --split-files SRR18106159.sra
+  284  ls
+  285  wget https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18106160/SRR18106160 -O SRR18106160.sra
+  286  fasterq-dump --split-files SRR18106160.sra
+  287  ls
+  288  cd ~
+  289  cd ~/trial_analysis
+  290  git init
+  291  touch .gitignore
+  292  ls
+  293  nano .gitignore
+  294  ls
+  295  git rm --cached *.fastq
+  296  git add .gitignore
+  297  git add .
+  298  gitcommit -m "Intial"
+  299  git commit -m "Initial"
+  300  git remote add origin git@github.com:aojijo/dee-analysis.git
+  301  git branch -M main
+  302  git push -u origin main
+  303  history > command_history.txt
