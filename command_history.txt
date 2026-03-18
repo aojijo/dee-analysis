@@ -301,3 +301,76 @@
   301  git branch -M main
   302  git push -u origin main
   303  history > command_history.txt
+  304  git add command_history.txt
+  305  git commit -m "Added command history log"
+  306  git push
+  307  cd /sra_data
+  308  cd sra_data
+  309  fastqc *.fastq*
+  310  ls
+  311  cd ~
+  312  cd trial_analysis
+  313  mkdir results/qc_untrimmed
+  314  mkdir results
+  315  cd results
+  316  mkdir qc_untrimmed
+  317  ls
+  318  cd ~/trial_analysis/sra_data
+  319  ls
+  320  mv *zip ~/trial_analysis/results/qc_untrimmed/
+  321  ls
+  322  mv *html ~/trial_analysis/results/qc_untrimmed/
+  323  ls
+  324  cd ~
+  325  mkdir -p /mnt/d/trial_analysis/raw_data
+  326  mkdir -p /mnt/d/trial-analysis/raw-data
+  327  ls /mnt
+  328  ls /mnt/d
+  329  sudo mkdir -p /mnt/d
+  330  sudo mount -t drvfs D: /mnt/d
+  331  mkdir -p /mnt/d/trial_analysis/raw_data
+  332  /mnt/d
+  333  ls /mnt
+  334  ls
+  335  ls /mnt
+  336  mkdir -p /mnt/d/trial_analysis
+  337  cd trial_analysis
+  338  ls
+  339  cd sra_data
+  340  ls
+  341  ~
+  342  cd ~
+  343  mv /home/aojijo/trial_analysis/sra_data  /mnt/d/trial_analysis
+  344  cd trial_analysis
+  345  ls
+  346  history > command_history
+  347  ls
+  348  cd ~/trial_analysis
+  349  ls
+  350  ls *.fastq
+  351  cd results
+  352  ls
+  353  cd qc_untrimmed
+  354  ls
+  355  for filename in *.zip; do unzip $filename; done
+  356  ls
+  357  ls -F SRR18106158_1_fastqc/
+  358  less SRR18106158_1_fastqc/summary.txt
+  359  mkdir -p ~/trial_analysis/results/fastqc_summaries
+  360  ..
+  361  cd..
+  362  cd ..
+  363  ls
+  364  cd qc_untrimmed
+  365  cat */summary.txt > ~/trial_analysis/results/fastqc_summaries
+  366  ls
+  367  ls -F SRR18106158_1_fastqc/
+  368  git add .
+  369  git commit -m "FastQc"
+  370  git push -u origin main
+  371  cd ~
+  372  cd trial_analysis
+  373  ls
+  374  history
+  375  history > command_history
+  376  history >command_history.txt
