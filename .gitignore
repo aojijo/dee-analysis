@@ -1,3 +1,22 @@
+# Reference genome
+refgenome/
+
+# BWA index files
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+# FastQC outputs
+results/qc_untrimmed/
+results/qc_trimmed/
+
+# Large / unnecessary outputs
+*.zip
+*.html
+*.png
+*.svg
 *.fastq
 *.fq
 *.bam
